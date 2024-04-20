@@ -1,0 +1,30 @@
+.modal-wrapper {
+  width: clamp(300px, 90%, 600px);
+  padding: 16px;
+  background-color: purple;
+  border-radius: 12px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+  color: #eeeeee;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: rgb(189, 189, 189);
+}
+
+.close-btn {
+  background-color: transparent;
+  color: #eeeeee;
+  font-size: 22px;
+  cursor: pointer;
+}
